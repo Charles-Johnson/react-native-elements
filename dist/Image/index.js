@@ -1,6 +1,6 @@
 import { Image as ImageNative } from 'react-native';
 import { withTheme } from '../config';
-import { Image } from '@rneui/base/dist/Image/Image';
+import { Image } from '@charles-johnson/rneui-base/dist/Image/Image';
 export { Image };
 const ThemedImage = Object.assign(withTheme(Image, 'Image'), {
     getSize: ImageNative.getSize,

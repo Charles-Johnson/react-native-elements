@@ -1,4 +1,4 @@
-import { TileProps } from '@rneui/base/dist/Tile/Tile';
+import { TileProps } from '@charles-johnson/rneui-base/dist/Tile/Tile';
 export type { TileProps };
 export declare const FeaturedTile: import("react").FunctionComponent<import("react").PropsWithChildren<TileProps>> | import("react").ForwardRefExoticComponent<import("react").RefAttributes<import("react").PropsWithChildren<TileProps>>>;
 declare const _default: import("react").FunctionComponent<import("react").PropsWithChildren<TileProps>> | import("react").ForwardRefExoticComponent<import("react").RefAttributes<import("react").PropsWithChildren<TileProps>>>;

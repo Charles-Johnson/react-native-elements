@@ -1,5 +1,5 @@
 import { Image as ImageNative } from 'react-native';
-import { Image, ImageProps } from '@rneui/base/dist/Image/Image';
+import { Image, ImageProps } from '@charles-johnson/rneui-base/dist/Image/Image';
 export { Image };
 export type { ImageProps };
 declare const ThemedImage: (import("react").FunctionComponent<import("react").PropsWithChildren<ImageProps>> | import("react").ForwardRefExoticComponent<import("react").RefAttributes<import("react").PropsWithChildren<ImageProps>>>) & {

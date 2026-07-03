@@ -1,12 +1,12 @@
-import { TabProps } from '@rneui/base/dist/Tab/Tab';
-import { TabItemProps } from '@rneui/base/dist/Tab/Tab.Item';
+import { TabProps } from '@charles-johnson/rneui-base/dist/Tab/Tab';
+import { TabItemProps } from '@charles-johnson/rneui-base/dist/Tab/Tab.Item';
 export type { TabProps, TabItemProps };
 export declare const ThemedTab: (import("react").FunctionComponent<import("react").PropsWithChildren<TabProps & {
-    theme?: import("@rneui/base").Theme;
+    theme?: import("@charles-johnson/rneui-base").Theme;
 } & {
     children?: import("react").ReactNode | undefined;
 }>> | import("react").ForwardRefExoticComponent<import("react").RefAttributes<import("react").PropsWithChildren<TabProps & {
-    theme?: import("@rneui/base").Theme;
+    theme?: import("@charles-johnson/rneui-base").Theme;
 } & {
     children?: import("react").ReactNode | undefined;
 }>>>) & {

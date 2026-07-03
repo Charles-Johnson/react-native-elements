@@ -1,4 +1,4 @@
-import { Switch, SwitchProps } from '@rneui/base/dist/Switch/Switch';
+import { Switch, SwitchProps } from '@charles-johnson/rneui-base/dist/Switch/Switch';
 export { Switch };
 export type { SwitchProps };
 declare const _default: import("react").FunctionComponent<import("react").PropsWithChildren<SwitchProps>> | import("react").ForwardRefExoticComponent<import("react").RefAttributes<import("react").PropsWithChildren<SwitchProps>>>;

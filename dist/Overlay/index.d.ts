@@ -1,4 +1,4 @@
-import { Overlay, OverlayProps } from '@rneui/base/dist/Overlay/Overlay';
+import { Overlay, OverlayProps } from '@charles-johnson/rneui-base/dist/Overlay/Overlay';
 export { Overlay };
 export type { OverlayProps };
 declare const _default: import("react").FunctionComponent<import("react").PropsWithChildren<OverlayProps>> | import("react").ForwardRefExoticComponent<import("react").RefAttributes<import("react").PropsWithChildren<OverlayProps>>>;

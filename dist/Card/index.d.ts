@@ -1,15 +1,15 @@
-import { CardProps } from '@rneui/base/dist/Card/Card';
-import { CardDividerProps } from '@rneui/base/dist/Card/Card.Divider';
-import { CardImageProps } from '@rneui/base/dist/Card/Card.Image';
-import { CardTitleProps } from '@rneui/base/dist/Card/Card.Title';
-import { CardFeaturedSubtitleProps } from '@rneui/base/dist/Card';
-import { CardFeaturedTitleProps } from '@rneui/base/dist/Card';
+import { CardProps } from '@charles-johnson/rneui-base/dist/Card/Card';
+import { CardDividerProps } from '@charles-johnson/rneui-base/dist/Card/Card.Divider';
+import { CardImageProps } from '@charles-johnson/rneui-base/dist/Card/Card.Image';
+import { CardTitleProps } from '@charles-johnson/rneui-base/dist/Card/Card.Title';
+import { CardFeaturedSubtitleProps } from '@charles-johnson/rneui-base/dist/Card';
+import { CardFeaturedTitleProps } from '@charles-johnson/rneui-base/dist/Card';
 declare const ThemedCard: (import("react").FunctionComponent<import("react").PropsWithChildren<CardProps & {
-    theme?: import("@rneui/base").Theme;
+    theme?: import("@charles-johnson/rneui-base").Theme;
 } & {
     children?: import("react").ReactNode | undefined;
 }>> | import("react").ForwardRefExoticComponent<import("react").RefAttributes<import("react").PropsWithChildren<CardProps & {
-    theme?: import("@rneui/base").Theme;
+    theme?: import("@charles-johnson/rneui-base").Theme;
 } & {
     children?: import("react").ReactNode | undefined;
 }>>>) & {
@@ -17,20 +17,20 @@ declare const ThemedCard: (import("react").FunctionComponent<import("react").Pro
     Image: import("react").FunctionComponent<import("react").PropsWithChildren<CardImageProps>> | import("react").ForwardRefExoticComponent<import("react").RefAttributes<import("react").PropsWithChildren<CardImageProps>>>;
     Title: import("react").FunctionComponent<import("react").PropsWithChildren<CardTitleProps>> | import("react").ForwardRefExoticComponent<import("react").RefAttributes<import("react").PropsWithChildren<CardTitleProps>>>;
     FeaturedTitle: import("react").FunctionComponent<import("react").PropsWithChildren<CardFeaturedTitleProps & {
-        theme?: import("@rneui/base").Theme;
+        theme?: import("@charles-johnson/rneui-base").Theme;
     } & {
         children?: import("react").ReactNode | undefined;
     }>> | import("react").ForwardRefExoticComponent<import("react").RefAttributes<import("react").PropsWithChildren<CardFeaturedTitleProps & {
-        theme?: import("@rneui/base").Theme;
+        theme?: import("@charles-johnson/rneui-base").Theme;
     } & {
         children?: import("react").ReactNode | undefined;
     }>>>;
     FeaturedSubtitle: import("react").FunctionComponent<import("react").PropsWithChildren<CardFeaturedSubtitleProps & {
-        theme?: import("@rneui/base").Theme;
+        theme?: import("@charles-johnson/rneui-base").Theme;
     } & {
         children?: import("react").ReactNode | undefined;
     }>> | import("react").ForwardRefExoticComponent<import("react").RefAttributes<import("react").PropsWithChildren<CardFeaturedSubtitleProps & {
-        theme?: import("@rneui/base").Theme;
+        theme?: import("@charles-johnson/rneui-base").Theme;
     } & {
         children?: import("react").ReactNode | undefined;
     }>>>;

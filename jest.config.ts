@@ -9,13 +9,13 @@ const config: Config = {
   preset: 'react-native',
   testPathIgnorePatterns: ['<rootDir>/node_modules', '<rootDir>/dist'],
   moduleNameMapper: {
-    '^@rneui/base/dist/(.*)': [
+    '^@charles-johnson/rneui-base/dist/(.*)': [
       '<rootDir>/../base/src/$1',
-      '<rootDir>/../../node_modules/@rneui/base/src/$1',
+      '<rootDir>/../../node_modules/@charles-johnson/rneui-base/src/$1',
     ],
   },
   transformIgnorePatterns: [
-    '<rootDir>/../../node_modules/(?!(@react-native|react-native|@rneui/base)/)',
+    '<rootDir>/../../node_modules/(?!(@react-native|react-native|@charles-johnson/rneui-base)/)',
   ],
   coveragePathIgnorePatterns: [],
   setupFilesAfterEnv: ['<rootDir>/.ci/setupTests.ts'],

@@ -1,2 +1,2 @@
-import { defaultSpacing } from '@rneui/base/dist/helpers';
+import { defaultSpacing } from '@charles-johnson/rneui-base/dist/helpers';
 export { defaultSpacing };

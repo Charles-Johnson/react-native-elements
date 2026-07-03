@@ -1,4 +1,4 @@
-import { androidRipple, BackgroundImage, color, fonts, getIconType, isIOS, normalizeText, patchWebProps, renderNode, ScreenHeight, ScreenWidth, registerCustomIconType, } from '@rneui/base/dist/helpers';
+import { androidRipple, BackgroundImage, color, fonts, getIconType, isIOS, normalizeText, patchWebProps, renderNode, ScreenHeight, ScreenWidth, registerCustomIconType, } from '@charles-johnson/rneui-base/dist/helpers';
 import { darkColors, lightColors } from './colors';
 import { createTheme, ThemeConsumer, ThemeContext, ThemeProvider, useTheme, useThemeMode, } from './ThemeProvider';
 import withTheme from './withTheme';

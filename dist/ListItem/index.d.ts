@@ -1,13 +1,13 @@
-import { ListItemProps } from '@rneui/base/dist/ListItem/ListItem';
-import { ListItemContentProps } from '@rneui/base/dist/ListItem/ListItem.Content';
-import { ListItemChevronProps } from '@rneui/base/dist/ListItem/ListItem.Chevron';
-import { ListItemInputProps } from '@rneui/base/dist/ListItem/ListItem.Input';
-import { ListItemCheckBoxProps } from '@rneui/base/dist/ListItem/ListItem.CheckBox';
-import { ListItemButtonGroupProps } from '@rneui/base/dist/ListItem/ListItem.ButtonGroup';
-import { ListItemTitleProps } from '@rneui/base/dist/ListItem/ListItem.Title';
-import { ListItemSubtitleProps } from '@rneui/base/dist/ListItem/ListItem.Subtitle';
-import { ListItemSwipeableProps } from '@rneui/base/dist/ListItem/ListItem.Swipeable';
-import { ListItemAccordionProps } from '@rneui/base/dist/ListItem/ListItem.Accordion';
+import { ListItemProps } from '@charles-johnson/rneui-base/dist/ListItem/ListItem';
+import { ListItemContentProps } from '@charles-johnson/rneui-base/dist/ListItem/ListItem.Content';
+import { ListItemChevronProps } from '@charles-johnson/rneui-base/dist/ListItem/ListItem.Chevron';
+import { ListItemInputProps } from '@charles-johnson/rneui-base/dist/ListItem/ListItem.Input';
+import { ListItemCheckBoxProps } from '@charles-johnson/rneui-base/dist/ListItem/ListItem.CheckBox';
+import { ListItemButtonGroupProps } from '@charles-johnson/rneui-base/dist/ListItem/ListItem.ButtonGroup';
+import { ListItemTitleProps } from '@charles-johnson/rneui-base/dist/ListItem/ListItem.Title';
+import { ListItemSubtitleProps } from '@charles-johnson/rneui-base/dist/ListItem/ListItem.Subtitle';
+import { ListItemSwipeableProps } from '@charles-johnson/rneui-base/dist/ListItem/ListItem.Swipeable';
+import { ListItemAccordionProps } from '@charles-johnson/rneui-base/dist/ListItem/ListItem.Accordion';
 export type { ListItemAccordionProps, ListItemSwipeableProps, ListItemProps as ListItemProps, };
 declare const _default: (import("react").FunctionComponent<import("react").PropsWithChildren<ListItemProps>> | import("react").ForwardRefExoticComponent<import("react").RefAttributes<import("react").PropsWithChildren<ListItemProps>>>) & {
     Accordion: import("react").FunctionComponent<import("react").PropsWithChildren<ListItemAccordionProps>> | import("react").ForwardRefExoticComponent<import("react").RefAttributes<import("react").PropsWithChildren<ListItemAccordionProps>>>;

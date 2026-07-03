@@ -1,4 +1,4 @@
 import { withTheme } from '../config';
-import { SearchBar, } from '@rneui/base/dist/SearchBar/SearchBar';
+import { SearchBar, } from '@charles-johnson/rneui-base/dist/SearchBar/SearchBar';
 export { SearchBar };
 export default withTheme(SearchBar, 'SearchBar');

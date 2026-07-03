@@ -1,4 +1,4 @@
-import { CheckBox, CheckBoxProps } from '@rneui/base/dist/CheckBox/CheckBox';
+import { CheckBox, CheckBoxProps } from '@charles-johnson/rneui-base/dist/CheckBox/CheckBox';
 export { CheckBox };
 export type { CheckBoxProps };
 declare const _default: import("react").FunctionComponent<import("react").PropsWithChildren<CheckBoxProps>> | import("react").ForwardRefExoticComponent<import("react").RefAttributes<import("react").PropsWithChildren<CheckBoxProps>>>;
