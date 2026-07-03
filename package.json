@@ -1,6 +1,6 @@
 {
   "name": "@charles-johnson/rneui-base",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Cross Platform React Native UI Toolkit",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -63,7 +63,6 @@
     "react-native-safe-area-context": "4.14.0"
   },
   "peerDependencies": {
-    "@testing-library/react-native": "^13.2.0",
     "react-native-safe-area-context": ">= 3.0.0"
   },
   "repository": {
